@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: optima;
+}
+
+body {
+  font-size: 1.1rem;
+  background: #F7F7F7;
+}
+
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #FFFFFF;
+}
+
+#nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3vw;
+}
+
+#nav-list > a {
+  display: block;
+  font-size: 1.3rem;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #692680;
+}
+
+#nav-list a:hover {
+  background-color: #FBF8E2;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  margin-top: 55px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+#welcome-text {
+  color: black;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #9C9C9C;
+  padding-bottom: 1em;
+}
+
+#sara {
+  color: #692680;
+}
+
+#about {
+  font-size: 1.3rem;
+  width: 750px;
+  margin: 10px auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  #about {
+    width: 95vw;
+  }
+}
+
+#projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.project-tile {
+  border: 2px solid;
+  text-align: center;
+  font-size: 1.15rem;
+  padding-bottom: 0.5%;
+  margin: 1rem 0;
+}
+
+.project-tile:hover {
+  background-color: #FBF8E2;
+}
+
+.project-tile > a {
+  text-decoration: none;
+}
+
+figcaption {
+  padding: 1%;
+}
+
+#contact {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 1.15rem;
+}
+
+form {
+  width: 500px;
+  margin: 3% auto;
+  border: 1px solid;
+}
+
+@media (max-width: 500px) {
+  width: 100vw;
+}
+
+.input-field {
+  margin: 4% 0;
+}
+
+input, textarea {
+  background-color: inherit;
+  border: 1px solid #C5C5C5;
+  padding: 1.6%;
+  font-size: 0.9rem;
+  text-align: left;
+  width: 200px;
+}
+
+label {
+  display: inline-block;
+  margin-right: 4%;
+  width: 65px;
+  text-align: right;
+}
+
+#textarea-label {
+  vertical-align: top;
+}
+
+textarea {
+  height: 5rem;
+}
+
+#submit-btn {
+  margin-bottom: 8%;
+}
+
+#submit {
+  text-align: center;
+  width: 100px;
+  margin-right: 27px;
+  font-size: 1rem;
+  color: #692680;
+  cursor: pointer;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#submit:hover {
+  background-color: #FBF8E2;
+}
+
+#social {
+  margin: 3% 0;
+}
+
+#social a {
+  text-decoration: none;
+}
+
+#social a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 1px solid;
+}
+
+#footer-list {
+  text-align: center;
+  margin: 3% 0;
+}
+
+#footer-list > a {
+  text-decoration: none;
+  margin: 2rem;
+  color: #692680;
+}
+
+#footer-list > a:hover {
+  text-decoration: underline;
+}
